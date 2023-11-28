@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 70%;
+    height: 90vh;
+    border: 2px solid black;
+    position: absolute;
+    left: 10%;
+    margin:2%;
+    padding:20px ;
+}
+.page .menu .tri{
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color:  #075f9f ;
+    border: 3px solid   #075f9f ;
+    width: 24px;
+    height: 23px;
+    position: absolute;
+    left: 1.8%;
+    top: 15px;
+}
+.page .menu .cir{
+    width: 18px;
+    height: 18px;
+    border: 3px solid  #075f9f ;
+    border-radius: 50%;
+    position: absolute;
+    left: 31px;
+    top: 28.5px;
+}
+h3{
+    color:  #075f9f;
+    position: absolute;
+    left: 6%;
+}
+
+
+.page .menu a{
+
+    position: relative;
+    left: 20%;
+    margin: 16px;
+    text-decoration: none;
+    color: #058ef0;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 3px;
+}
+a:hover{
+    border-bottom: 2px solid #058ef0;
+    padding-bottom: 2px;
+}
+
+.page .menu .getstarted, .sign{
+    position: absolute;
+    left : 70%;
+    top: 17px; 
+    color: #058ef0; 
+    font-family:  sans-serif;
+    font-weight: 700;
+}
+.page .menu .sign{
+    position:absolute;
+    left:87% ;
+    top: 16px;
+}
+.page .menu img{
+    width: 13px;
+    position: absolute;
+    right: 3%;
+    position: absolute;
+    background-color: #058ef0;  
+    border-radius: 50%; 
+}
+.page .menu img:hover{
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgb(0,0,0,0.3);
+    width: 15px;
+    transition: all ease 0.2s;
+}
+
+.page .menu .line {
+    width:0.1px;
+    height: 20px;
+    border: 1px solid #058ef0;
+    position: absolute;
+    left: 64%;
+    top: 20px;
+}
+.page .line1{
+    width: 50px;
+    border: 2px solid royalblue;
+    position: absolute;
+    bottom: 48%;
+    left: 30px;
+    background:to right,linear-gradient(#2fd0f1,#055694);
+    
+    
+}
+.page .ps{
+    width:47%;
+    height: 73vh;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    
+}
+h1{
+    color: #05497a ;
+    position: absolute;
+    left:3%;
+    top: 20%;
+    font-family:  sans-serif;
+    font-size: 45px;
+}
+h2{
+    position: absolute;
+    left: 3%;
+    top: 40%;
+    color:   #2379b6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color:   #44a6ec;
+    position: absolute;
+    left: 3% ;
+    top:60% ;
+    font-family:  sans-serif;
+}
+.page .button1, .button2
+{
+    border-color: skyblue;
+    width: 16%;
+    height: 6vh;
+    margin-top: 3px;
+    font-family:  sans-serif;
+    border-radius: 40px;
+    position: relative;
+    top: 75%;
+    color:rgb(3, 43, 58);
+    background: #fff;
+    left: 1%;
+       
+
+}
+.page .button1{
+    background-color: rgb(44, 96, 134) ;
+    border-color: #073658;
+    color: #fff;
+    background: linear-gradient(to right,rgb(57, 78, 196),rgb(3, 25, 95));
+}
+.fb, .insta, .twt{
+    width: 20px;
+    position:relative;
+    top: 90%;
+    right: 250px;   
+}
+    
+ 
+
